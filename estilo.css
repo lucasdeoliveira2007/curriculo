@@ -1,3 +1,10 @@
+*{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;  
+}
+
 body{
 font-size: 20px;
 }
@@ -7,7 +14,7 @@ font-size: 20px;
 
 header{ 
     display: flex;
-    aling-items:center;
+    align-items: center;
     justify-content: space-between;
     background-color: #f4f4f4;
 }
@@ -21,10 +28,11 @@ header .profile img{
 
 header .links a{
     text-decoration: nome;
-    color: #658fd3;
+    color: #000000;
     font-weight: bold;
     margin: 0 10px;
-    font-sise: 20px;
+    font-size: 20px;
+    font-family: "Mukta Malar";
 }
 
 .descriçao{
@@ -40,7 +48,7 @@ margin: 20px;
   width: 30%;  
   background-color: #f4f4f4;
   padding: 15px;
-  border: 1px solid #658fd3;
+  border: 1px solid #000000;
   border-radius: 10px;
 }
 .falacmg{
@@ -60,13 +68,13 @@ form input{
     width: 100%;
     padding: 8px;
     margin: 5px 0;
-    border: ipx solid #1ecc0e;
-    border-radius: ;
+    border: ipx solid #ff0c0c;
+    border-radius: spx;
 }
 .blocofim{
 width: 30%;
 background-color: #f4f4f4;
 padding: 15px;
-border: 1px solid #f4f4f4;
+border: 1px solid #000000;
 border-radius: 10px;
 }
